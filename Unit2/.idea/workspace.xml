@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="47a3394c-bf01-4f96-b424-176ea2d96afa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/task3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="47a3394c-bf01-4f96-b424-176ea2d96afa" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +69,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -226,7 +223,7 @@
       <option name="presentableId" value="Default" />
       <updated>1545324528932</updated>
       <workItem from="1545324530800" duration="116000" />
-      <workItem from="1545324672820" duration="34772000" />
+      <workItem from="1545324672820" duration="35122000" />
     </task>
     <task id="LOCAL-00001" summary="1task">
       <created>1545480913686</created>
@@ -246,10 +243,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34888000" />
+    <option name="totallyTimeSpent" value="35238000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
