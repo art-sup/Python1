@@ -1,1 +1,7 @@
-{"orders": []}
+{
+    "Item": "Boots",
+    "Quantity": 1,
+    "Price": 10.0,
+    "Buyer": "Volkov",
+    "Date": "21-12-2018"
+}
