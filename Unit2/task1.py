@@ -6,48 +6,56 @@ import re
 #«Изготовитель системы», «Название ОС», «Код продукта», «Тип системы»
 #os_prod_list, os_name_list, os_code_list, os_type_list
 #main_data
+def get_value(my_line):
+    re_pattern = r'^.*:\s*'
+    return re.split(re_pattern,my_line)
+
 def get_data():
+    filepath="/Users/tema-/Documents/git/Python. Расширенный курс/Unit2/"
+    main_data = [['Изготовитель системы', 'Название ОС', 'Тип системы', 'Код продукта']]
     os_prod_list = []
     os_name_list = []
     os_code_list = []
     os_type_list = []
-    for file in os.listdir("/Users/tema-/Documents/git/Python. Расширенный курс/Unit2"):
+    for file in os.listdir(filepath):
         if file.endswith(".txt"):
-            filename = os.path.join("/Users/tema-/Documents/git/Python. Расширенный курс/Unit2/") + file
-            with open(filename) as f_n:
-                for row in f_n:
-                    result_os_prod = re.search(r'(?<=Изготовитель системы:[\s+]).*?(?=\n)',string=row)
-                    result_os_name = re.search(r'(?<=Название ОС:[\s+]).*?(?=\n)', string=row)
-                    result_os_code = re.search(r'(?<=Код продукта:[\s+]).*?(?=\n)', string=row)
-                    result_os_type = re.search(r'(?<=Тип системы:[\s+]).*?(?=\n)', string=row)
-                    if (result_os_prod != None):
-                        os_prod_list.append(result_os_prod[0])
-                    else:
-                        if (result_os_name != None):
-                            os_name_list.append(result_os_name[0])
-                        else:
-                            if (result_os_code != None):
-                                os_code_list.append(result_os_code[0])
-                            else:
-                                if (result_os_type != None):
-                                    os_type_list.append(result_os_type[0])
+            filename = os.path.join(filepath) + file
+            try:
+                with open(filename) as f_n:
+                    for line in f_n:
+                        if ('Изготовитель ОС' in line):
+                            value_list = get_value(line)
+                            os_prod_list.append(value_list[1].rstrip())
+                        elif 'Название ОС' in line:
+                            value_list = get_value(line)
+                            os_name_list.append(value_list[1].rstrip())
+                        elif 'Код продукта' in line:
+                            value_list = get_value(line)
+                            os_code_list.append(value_list[1].rstrip())
+                        elif 'Тип системы' in line:
+                            value_list = get_value(line)
+                            os_type_list.append(value_list[1].rstrip())
+                f_n.close()
+            except FileNotFoundError:
+                print(f'файл {filename} не найден')
 
-    # print(os_prod_list)
-    # print(os_name_list)
-    # print(os_code_list)
-    # print(os_type_list)
-    f_n.close()
-    main_data = {"Изготовитель системы":os_prod_list, "Название ОС":os_name_list, "Код продукта":os_code_list, "Тип системы":os_type_list}
-    return (main_data.copy())
+    max_len = max(len(os_name_list),len(os_prod_list),len(os_type_list),len(os_code_list))
+    for count in range(max_len):
+        main_data_list=[]
+        main_data_list.append(os_name_list[count])
+        main_data_list.append(os_prod_list[count])
+        main_data_list.append(os_type_list[count])
+        main_data_list.append(os_code_list[count])
+        main_data.append(main_data_list)
+
+    return (main_data)
 
 def write_to_csv(FILENAME):
+    info = get_data()
     with open(FILENAME, 'w') as f_n:
-        info = get_data()
-        print(info.values())
-        columns = ["Изготовитель системы", "Название ОС", "Код продукта", "Тип системы"]
-        f_n_writer = csv.DictWriter(f_n,fieldnames=columns)
-        f_n_writer.writeheader()
-        f_n_writer.writerows(info)
+        f_n_writer = csv.writer(f_n,quoting = csv.QUOTE_NONNUMERIC)
+        for row in info:
+            f_n_writer.writerow(row)
     f_n.close()
 
 FILENAME = "/Users/tema-/Documents/git/Python. Расширенный курс/Unit2/info.csv"
