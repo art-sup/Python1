@@ -1,0 +1,57 @@
+
+{
+        "action": "authenticate",
+        "time": <unix timestamp>,
+        "user": {
+                "account_name":  "C0deMaver1ck",
+                "password":      "CorrectHorseBatteryStaple"
+        }
+}
+
+
+{
+    "response": 200,
+    "alert":"Необязательное сообщение/уведомление"
+}
+
+{
+    "response": 402,
+    "error": "This could be "wrong password" or "no account with that name""
+}
+
+{
+    "response": 409,
+    "error": "Someone is already connected with the given user name"
+}
+
+{
+    "action": "quit"
+}
+
+
+{
+        "action": "presence",
+        "time": <unix timestamp>,
+        "type": "status",
+        "user": {
+                "account_name":  "C0deMaver1ck",
+                "status":      "Yep, I am here!"
+        }
+}
+
+{
+        "action": "probe",
+        "time": <unix timestamp>,
+}
+
+
+
+user - user
+{
+    "action": "msg",
+    "time": <unix timestamp>,
+    "to": "account_name",
+    "from": "account_name",
+    "encoding": "ascii",
+    "message": "message"
+}
