@@ -244,6 +244,9 @@
       <module name="Unit2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="C:\Users\tema-\PycharmProjects\untitled\venv\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lession_4" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -280,8 +283,8 @@
       <item itemvalue="Python.jim_server" />
       <item itemvalue="Python.jim_client" />
       <item itemvalue="Python.jim_server (1)" />
-      <item itemvalue="Python tests.Unittests in test_client.py" />
       <item itemvalue="Python.test_client" />
+      <item itemvalue="Python tests.Unittests in test_client.py" />
     </list>
     <recent_temporary>
       <list>
