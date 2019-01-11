@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47a3394c-bf01-4f96-b424-176ea2d96afa" name="Default Changelist" comment="1task">
-      <change afterPath="$PROJECT_DIR$/task2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lession_4/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orders.json" beforeDir="false" afterPath="$PROJECT_DIR$/orders.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,29 +13,20 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Unit2$task2.coverage" NAME="task2 Coverage Results" MODIFIED="1545485591594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Unit2$jim_client.coverage" NAME="jim_client Coverage Results" MODIFIED="1545839758057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lession_3" />
+    <SUITE FILE_PATH="coverage/Unit2$jim_server__1_.coverage" NAME="jim_server (1) Coverage Results" MODIFIED="1545834684716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lession_3" />
     <SUITE FILE_PATH="coverage/Unit2$task1.coverage" NAME="task1 Coverage Results" MODIFIED="1545485070129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Unit2$Unittests_in_test_client_py.coverage" NAME="Unittests in test_client.py Coverage Results" MODIFIED="1547223419150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lession_4" />
+    <SUITE FILE_PATH="coverage/Unit2$jim_server.coverage" NAME="jim_server Coverage Results" MODIFIED="1545839754067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lession_3" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="104" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="104" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/task2.py">
+        <entry file="file://$PROJECT_DIR$/lession_4/test_server.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="98" selection-start-line="11" selection-start-column="98" selection-end-line="11" selection-end-column="98" />
+            <state>
               <folding>
-                <element signature="e#0#11#0" expanded="true" />
+                <element signature="e#75#95#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -60,12 +50,16 @@
       <list>
         <option value="$PROJECT_DIR$/task1.py" />
         <option value="$PROJECT_DIR$/task2.py" />
+        <option value="$PROJECT_DIR$/lession_3/jim_client.py" />
+        <option value="$PROJECT_DIR$/lession_3/jim_server.py" />
+        <option value="$PROJECT_DIR$/lession_4/__init__.py" />
+        <option value="$PROJECT_DIR$/lession_4/test_client.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
-    <option name="y" value="20" />
+    <option name="y" value="18" />
     <option name="width" value="1346" />
     <option name="height" value="698" />
   </component>
@@ -75,6 +69,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -82,11 +77,15 @@
               <item name="Unit2" type="b2602c69:ProjectViewProjectNode" />
               <item name="Unit2" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Unit2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Unit2" type="462c0819:PsiDirectoryNode" />
+              <item name="lession_4" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -108,7 +107,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.task2">
+  <component name="RunManager" selected="Python.test_client">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="Unit2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -123,6 +122,72 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="task1" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="true" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="jim_client" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Unit2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lession_3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="jim_client.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="true" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="jim_server (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Unit2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\tema-\PycharmProjects\untitled\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lession_3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lession_3/jim_server.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="true" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="jim_server" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Unit2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lession_3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="jim_server.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -175,10 +240,58 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test_client" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Unit2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\tema-\PycharmProjects\untitled\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lession_4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lession_4/test_client.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="true" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in test_client.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Unit2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lession_4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/lession_4/test_client.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.task1" />
       <item itemvalue="Python.task2" />
+      <item itemvalue="Python.jim_server" />
+      <item itemvalue="Python.jim_client" />
+      <item itemvalue="Python.jim_server (1)" />
+      <item itemvalue="Python tests.Unittests in test_client.py" />
+      <item itemvalue="Python.test_client" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Unittests in test_client.py" />
+        <item itemvalue="Python.test_client" />
+        <item itemvalue="Python.jim_client" />
+        <item itemvalue="Python.jim_server" />
+        <item itemvalue="Python.jim_server (1)" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -192,6 +305,9 @@
       <updated>1545324528932</updated>
       <workItem from="1545324530800" duration="116000" />
       <workItem from="1545324672820" duration="32820000" />
+      <workItem from="1545762439255" duration="15554000" />
+      <workItem from="1547145020719" duration="1079000" />
+      <workItem from="1547150790226" duration="8422000" />
     </task>
     <task id="LOCAL-00001" summary="1task">
       <created>1545480913686</created>
@@ -203,18 +319,51 @@
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_in_test_client_py - 2019.01.11 at 21h 06m 46s.xml">
+      <configuration name="Unittests in test_client.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_client_py - 2019.01.11 at 21h 07m 15s.xml">
+      <configuration name="Unittests in test_client.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_client_py - 2019.01.11 at 21h 08m 14s.xml">
+      <configuration name="Unittests in test_client.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_client_py - 2019.01.11 at 21h 09m 36s.xml">
+      <configuration name="Unittests in test_client.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_client_py - 2019.01.11 at 21h 10m 16s.xml">
+      <configuration name="Unittests in test_client.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_client_py - 2019.01.11 at 21h 10m 29s.xml">
+      <configuration name="Unittests in test_client.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_client_py - 2019.01.11 at 21h 11m 17s.xml">
+      <configuration name="Unittests in test_client.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_client_py - 2019.01.11 at 21h 14m 45s.xml">
+      <configuration name="Unittests in test_client.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_client_py - 2019.01.11 at 21h 15m 47s.xml">
+      <configuration name="Unittests in test_client.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_client_py - 2019.01.11 at 21h 17m 00s.xml">
+      <configuration name="Unittests in test_client.py" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32936000" />
+    <option name="totallyTimeSpent" value="57991000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.38426626" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3411371" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.39297658" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -223,8 +372,8 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32850242" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32850242" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32943144" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3277592" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -242,22 +391,64 @@
     <option name="LAST_COMMIT_MESSAGE" value="1task" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/task1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="104" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="104" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/task2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="98" selection-start-line="11" selection-start-column="98" selection-end-line="11" selection-end-column="98" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="104" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="104" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lession_3/jim_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="e#75#95#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lession_4/test_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#75#95#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lession_4/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lession_3/jim_client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="15" lean-forward="true" selection-start-line="9" selection-end-line="13" selection-end-column="15" />
+          <folding>
+            <element signature="e#73#93#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lession_4/test_client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="e#50#70#0" expanded="true" />
           </folding>
         </state>
       </provider>
