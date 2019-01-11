@@ -2,7 +2,7 @@
 from socket import *
 import unittest
 import time, datetime
-
+#исправил использование функций
 
 # from jim_client import get_timestamp
 def get_timestamp():
