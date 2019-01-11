@@ -9,7 +9,7 @@ def get_timestamp():
     dt = datetime.datetime.now()
     # value = datetime.datetime.fromtimestamp(time.mktime(dt.timetuple()))
     # print(value.strftime('%Y-%m-%d %H:%M:%S'))
-    return (dt)
+    return str(dt)
 
 
 def mockup_get_timestamp():
@@ -20,8 +20,8 @@ class UnitTest1(unittest.TestCase):
 
     def setUp(self):
         self._get_start_time = datetime.datetime.now()
-        self.get_local_time = time.ctime(time.time())
-        self.get_srv_time = get_timestamp()
+        self._get_local_time = time.ctime(time.time())
+        self._get_srv_time = get_timestamp()
 
     def tearDown(self):
         elapsed = datetime.datetime.now() - self._get_start_time
@@ -35,10 +35,10 @@ class UnitTest1(unittest.TestCase):
         self.assertEqual(1, 1)
 
     def test_year2019(self):
-        self.assertRegex(self.get_local_time, "^.*2019$")
+        self.assertRegex(self._get_srv_time, "^.*2019.*")
 
     def test_not_year2018(self):
-        self.assertNotRegex(self.get_local_time, "^.*2018$")
+        self.assertNotRegex(self._get_srv_time, "^.*2018.*")
 
 
 if __name__ == '__main__':
