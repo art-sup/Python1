@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="47a3394c-bf01-4f96-b424-176ea2d96afa" name="Default Changelist" comment="1task">
-      <change afterPath="$PROJECT_DIR$/lession_6/decor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="47a3394c-bf01-4f96-b424-176ea2d96afa" name="Default Changelist" comment="1task" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -365,7 +362,7 @@
       <workItem from="1547145020719" duration="1079000" />
       <workItem from="1547150790226" duration="8422000" />
       <workItem from="1547228259038" duration="335000" />
-      <workItem from="1547758865401" duration="3780000" />
+      <workItem from="1547758865401" duration="4376000" />
     </task>
     <task id="LOCAL-00001" summary="1task">
       <created>1545480913686</created>
@@ -410,7 +407,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62106000" />
+    <option name="totallyTimeSpent" value="62702000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
